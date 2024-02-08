@@ -1,0 +1,19 @@
+letters = "bdefhijklmnopdqrsuvwxyzBDEFHIJKLMNOPQRSUVWXYZ"
+
+def sequence(post):
+    output = ""
+    for char in post:
+        if char in letters:
+            output += " "
+        else:
+            output += char
+    print(output)
+
+# to use:
+# 1) type 'sequence("")'
+# 2) paste the text of a tumblr post inside the "s
+#   2a) replace any line breaks with \n
+#   2b) replace any quotation marks with '
+# 3) hit enter
+# 4) ???
+# 5) profit
